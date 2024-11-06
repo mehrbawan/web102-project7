@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: brown;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: brown;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #f4f4f4;
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.cookie-card {
+  border-style: solid;
+  border-width: 5px;
+  border-radius:30px;
+  border-color:skyblue;
+  margin: 5px;
+  width: 400px;
+  height: 300px;
+  color:black;
+  background-color: gold;
+}
+
+.cookie-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.App {
+  display: flex;
+  gap: 30px;
+}
+/* 
+.cookie-form
+{
+  background-color:pink;
+} */
